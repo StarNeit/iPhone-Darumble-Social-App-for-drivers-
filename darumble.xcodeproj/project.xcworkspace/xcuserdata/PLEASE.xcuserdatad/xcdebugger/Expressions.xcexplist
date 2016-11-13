@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[SearchItemsVC goPhotoSearchResult:]:SearchItemsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "rng.location">
+            </PersistentString>
+            <PersistentString
+               value = "endDateString">
+            </PersistentString>
+            <PersistentString
+               value = "rng.length">
+            </PersistentString>
+            <PersistentString
+               value = "startDateString">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ShopManagerVC removeNotifi]:ShopManagerVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[ParseUtil parse_get_publicprofile:]:ParseUtil.m">
+      </ContextState>
+      <ContextState
+         contextName = "main:main.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "rng">
+            </PersistentString>
+            <PersistentString
+               value = "substringToIndex:rng.location">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EventsContentVC GetEvents_Success:]:EventsContentVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchItemsVC viewWillAppear:]:SearchItemsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.flagOfRumblerSearch">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PhotoDetailsVC viewDidLoad]:PhotoDetailsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.photoObj">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PhotoSearchResultVC viewWillAppear:]:PhotoSearchResultVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[VideosContentVC setupScrollViewImages]:VideosContentVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageData.count">
+            </PersistentString>
+            <PersistentString
+               value = "idx">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalFeedVC viewDidLayoutSubviews]:GlobalFeedVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_scrollCntList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageHistoryVC tableView:cellForRowAtIndexPath:]:MessageHistoryVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "nib">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PhotosContentVC viewWillAppear:]:PhotosContentVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[USER_DEFAULT objectForKey:@&quot;zip&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EventDetailsVC scrollViewDidScroll:]:EventDetailsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "pageIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AddShopVC addPhotoEvent:]:AddShopVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PublicProfileVC setupScrollViewImages]:PublicProfileVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.vehicleImages">
+            </PersistentString>
+            <PersistentString
+               value = "self.photoImages">
+            </PersistentString>
+            <PersistentString
+               value = "self.eventImages">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchItemsVC viewDidLoad]:SearchItemsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.is_rumbler">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[BottomButtonCell clickNewPostButton:]:BottomButtonCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.parent.plog_from_id">
+            </PersistentString>
+            <PersistentString
+               value = "self.parent.plog_to_id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MyShopsVC tableView:didSelectRowAtIndexPath:]:MyShopsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "shopArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EventDetailsVC setupScrollViewImages]:EventDetailsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "url">
+            </PersistentString>
+            <PersistentString
+               value = "imageData.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchItemsVC goEventSearchResult:]:SearchItemsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "toggleLocation.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchItemsVC showDateTimePicker:]:SearchItemsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.datePicker.idx">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[VideosContentVC Get_video_success:]:VideosContentVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ShopDetailsVC viewWillAppear:]:ShopDetailsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.photoObj">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchItemsVC goVehicleSearchResult:]:SearchItemsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_vehicle_type.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageHistoryVC removeNotifi3]:MessageHistoryVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "privatelogArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EventsContentVC collectionView:didSelectItemAtIndexPath:]:EventsContentVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "vc.photoObj">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PhotoDetailsVC GetPhotoDetail_Success:]:PhotoDetailsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "btn_flag.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageHistoryVC tableView:numberOfRowsInSection:]:MessageHistoryVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "messengerArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageHistoryVC GetPrivateLogs_Success:]:MessageHistoryVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalFeedVC GetGlobalFeed_Success:]:GlobalFeedVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PublicProfileVC GetPublicProfile_Success:]:PublicProfileVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.photoImages">
+            </PersistentString>
+            <PersistentString
+               value = "imageURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CalendarVC clickRecurringDone:]:CalendarVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "vc.is_reucrring">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PhotoSearchResultVC PhotoSearch_Success:]:PhotoSearchResultVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[EventDetailsVC viewWillAppear:]:EventDetailsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.photoObj.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[PhotoDetailsVC GetGlobalFeed_Success:]:PhotoDetailsVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageHistoryVC tableView:didSelectRowAtIndexPath:]:MessageHistoryVC.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

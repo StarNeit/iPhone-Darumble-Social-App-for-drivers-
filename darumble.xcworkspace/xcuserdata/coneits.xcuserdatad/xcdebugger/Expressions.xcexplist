@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "+[ParseUtil parse_add_userDicUpdate:andPass:]:ParseUtil.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "age">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalFeedVC setupScrollViewImages]:GlobalFeedVC.m">
+      </ContextState>
+      <ContextState
+         contextName = "BaseCameraRollViewController.((setupAndStartOperation in _1BECE6C70E62929B066C52CCFC985574)() -&gt; ()).(closure #1).(closure #1):BaseCameraRollViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "strongSelf">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoSettingsViewController.backTwo() -&gt; ():VideoSettingsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewControllers.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[ParseUtil parse_get_video:]:ParseUtil.m">
+      </ContextState>
+      <ContextState
+         contextName = "__57-[VideosContentVC collectionView:cellForItemAtIndexPath:]_block_invoke:VideosContentVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "obj.videoThumbnailURL">
+            </PersistentString>
+            <PersistentString
+               value = "response">
+            </PersistentString>
+            <PersistentString
+               value = "pic.link">
+            </PersistentString>
+            <PersistentString
+               value = "videosArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__52+[RegisterVideoMeta setVideoMeta:title:description:]_block_invoke_2:RegisterVideoMeta.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "video_url">
+            </PersistentString>
+            <PersistentString
+               value = "video.pictureCollection.pictures">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "specialized OldUploadDescriptor.taskDidFinishDownloading(sessionManager : AFURLSessionManager, task : NSURLSessionDownloadTask, url : NSURL) -&gt; NSURL?:OldUploadDescriptor.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.video?.link">
+            </PersistentString>
+            <PersistentString
+               value = "self.videoUri">
+            </PersistentString>
+            <PersistentString
+               value = "responseSerializer">
+            </PersistentString>
+            <PersistentString
+               value = "self.video?.name">
+            </PersistentString>
+            <PersistentString
+               value = "self.video">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ManagePhotosVC collectionView:cellForItemAtIndexPath:]:ManagePhotosVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "obj.videoThumbnailURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SearchItemsVC goVideoSearchResult:]:SearchItemsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_video_description.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EventSearchResult viewWillAppear:]:EventSearchResult.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.m_event_type">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[RegisterVideoMeta setVideoMeta:title:description:]:RegisterVideoMeta.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "title">
+            </PersistentString>
+            <PersistentString
+               value = "video_url">
+            </PersistentString>
+            <PersistentString
+               value = "description">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[GlobalFeedVC GetGlobalFeed_Success:]:GlobalFeedVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.videoImages ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LocalFeedVC viewDidLoad]:LocalFeedVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[USER_DEFAULT objectForKey:@&quot;country&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EventSearchResult EventSearch_Success:]:EventSearchResult.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AddMyEventVC doStates:]:AddMyEventVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "myList">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MyAccountVC viewDidLoad]:MyAccountVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "txf_city.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

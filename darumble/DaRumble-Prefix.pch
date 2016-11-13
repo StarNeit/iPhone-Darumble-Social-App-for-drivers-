@@ -1,0 +1,43 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+#import "MFSideMenuContainerViewController.h"
+#import "Define.h"
+#import "Common.h"
+#import "MBProgressHUD.h"
+#import "DataCenter.h"
+#import "ParseUtil.h"
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+
+
+
+#define TXT_CATEGORY_OTHER @"1"
+#define TXT_CATEGORY_VEHICLEID @"3"
+#define TXT_CATEGORY_GARAGEID @"4"
+#define TXT_CATEGORY_EVENTID @"5"
+
+
+#define TXT_KEY_SCREEN_OTHER 0
+#define TXT_KEY_SCREEN_EVENTID 5
+#define TXT_KEY_SCREEN_VEHICLE 3
+#define TXT_KEY_SCREEN_GARAGEID 4
+#define TXT_KEY_SCREEN_PHOTOID 1
+#define TXT_KEY_SCREEN_VIDEO 2
+#define TXT_BOOL_NO 0
+#define TXT_BOOL_YES 1
+/*
+ 
+ */

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShopManagerVC">
+            <connections>
+                <outlet property="ShopManageTitle" destination="O1j-oS-IbX" id="wUl-Rr-Fpx"/>
+                <outlet property="_bgMain" destination="Luk-mg-sED" id="Cp6-Qw-0EU"/>
+                <outlet property="_bgTopBar" destination="S9g-uS-5s5" id="cCh-S3-0p0"/>
+                <outlet property="_srcMain" destination="JX6-0Z-BPd" id="YgF-rg-xRj"/>
+                <outlet property="btnEdit" destination="xqO-4e-fr2" id="rtI-C0-6jk"/>
+                <outlet property="btnInvite" destination="QpD-Dj-acA" id="eM1-To-Sqc"/>
+                <outlet property="btnMember" destination="Izb-I5-JX1" id="aDk-3x-vkL"/>
+                <outlet property="btnRequest" destination="kXe-Pb-5ne" id="ygV-HB-lgu"/>
+                <outlet property="inviteView" destination="zOa-GR-1pM" id="i17-HO-c7p"/>
+                <outlet property="invite_email" destination="yGy-b0-CIC" id="v2X-gV-aHE"/>
+                <outlet property="invite_username" destination="h1V-fI-8lb" id="A85-dF-lTn"/>
+                <outlet property="memberListTableView" destination="rOf-LH-WAB" id="xBP-sx-Re2"/>
+                <outlet property="memberView" destination="jp2-y7-FF5" id="M5u-CF-sJm"/>
+                <outlet property="requestListTableView" destination="McQ-4t-Dz7" id="UTm-gc-bJb"/>
+                <outlet property="requestView" destination="vFA-sZ-kHj" id="Wpx-2E-zyk"/>
+                <outlet property="toggleGroup" destination="Dre-pR-OBQ" id="IP3-Gc-BGc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="QbJ-hY-n63"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" id="Luk-mg-sED">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" id="PWj-8o-pfI">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_topbar.png" id="S9g-uS-5s5">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CTl-n6-mhz">
+                            <rect key="frame" x="0.0" y="0.0" width="48" height="43"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ic_btn_menu.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickMenu:" destination="-1" eventType="touchUpInside" id="uIY-ud-gNd"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shop/Club Manager" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d5U-J2-o32">
+                            <rect key="frame" x="63" y="0.0" width="194" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gzP-r8-zLa">
+                            <rect key="frame" x="271" y="0.0" width="49" height="43"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" backgroundImage="ic_btn_back.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickSearch:" destination="-1" eventType="touchUpInside" id="OyU-FF-eDv"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="JX6-0Z-BPd">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="box.png" id="lRc-zK-VEF">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="7r8-dM-6B4">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="kXe-Pb-5ne">
+                                    <rect key="frame" x="120" y="4" width="22" height="37"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="btn_action_request.png"/>
+                                    <connections>
+                                        <action selector="clickRequestList:" destination="-1" eventType="touchUpInside" id="SGY-8a-7a3"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="QpD-Dj-acA">
+                                    <rect key="frame" x="183" y="4" width="48" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="btn_action_invite.png"/>
+                                    <connections>
+                                        <action selector="clickInvite:" destination="-1" eventType="touchUpInside" id="Ld5-7i-lOx"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xqO-4e-fr2">
+                                    <rect key="frame" x="257" y="5" width="61" height="51"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="ic_crown_on.png"/>
+                                    <connections>
+                                        <action selector="clickEdit:" destination="-1" eventType="touchUpInside" id="QPR-TF-R85"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Izb-I5-JX1">
+                                    <rect key="frame" x="24" y="4" width="70" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="btn_action_members_on.png"/>
+                                    <connections>
+                                        <action selector="clickMemberList:" destination="-1" eventType="touchUpInside" id="6X8-J3-RgL"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="title_members.png" id="O1j-oS-IbX">
+                            <rect key="frame" x="91" y="52" width="138" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" id="jp2-y7-FF5">
+                            <rect key="frame" x="0.0" y="90" width="320" height="386"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <tableView opaque="NO" clipsSubviews="YES" tag="3000" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="rOf-LH-WAB">
+                                    <rect key="frame" x="0.0" y="-16" width="320" height="407"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="JGH-q0-0wr"/>
+                                        <outlet property="delegate" destination="-1" id="J1g-Ey-36A"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                        </view>
+                        <view hidden="YES" contentMode="scaleToFill" id="vFA-sZ-kHj">
+                            <rect key="frame" x="0.0" y="90" width="320" height="386"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <tableView opaque="NO" clipsSubviews="YES" tag="3001" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="McQ-4t-Dz7">
+                                    <rect key="frame" x="0.0" y="37" width="320" height="348"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="9vr-Mm-2if"/>
+                                        <outlet property="delegate" destination="-1" id="SPj-gs-McI"/>
+                                    </connections>
+                                </tableView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disable Request" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LNH-6h-GEn">
+                                    <rect key="frame" x="23" y="4" width="137" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Dre-pR-OBQ">
+                                    <rect key="frame" x="222" y="-6" width="73" height="48"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="btn_toggle.png"/>
+                                    <connections>
+                                        <action selector="clickGroupToggle:" destination="-1" eventType="touchUpInside" id="qh7-NG-8FN"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </view>
+                        <view hidden="YES" contentMode="scaleToFill" id="zOa-GR-1pM">
+                            <rect key="frame" x="0.0" y="90" width="320" height="386"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="box.png" id="sAU-jW-NbM">
+                                    <rect key="frame" x="28" y="8" width="270" height="95"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfill.png" id="A2T-5e-YKi">
+                                    <rect key="frame" x="43" y="17" width="240" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="or.png" id="Ocm-hI-O3c">
+                                    <rect key="frame" x="43" y="54" width="240" height="14"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfill.png" id="jWa-rL-Mdb">
+                                    <rect key="frame" x="43" y="68" width="240" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="natural" minimumFontSize="17" id="h1V-fI-8lb">
+                                    <rect key="frame" x="51" y="19" width="231" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" id="yGy-b0-CIC">
+                                    <rect key="frame" x="51" y="70" width="231" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="wjq-J6-UTs">
+                                    <rect key="frame" x="45" y="64" width="237" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="btn_sendinvite.png"/>
+                                    <connections>
+                                        <action selector="clickSendInvite:" destination="-1" eventType="touchUpInside" id="UPm-sM-lVU"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </view>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="-754" y="407"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="background.png" width="320" height="480"/>
+        <image name="bg_topbar.png" width="320" height="43"/>
+        <image name="box.png" width="292" height="151"/>
+        <image name="btn_action_invite.png" width="83" height="83"/>
+        <image name="btn_action_members_on.png" width="118" height="84"/>
+        <image name="btn_action_request.png" width="36" height="63"/>
+        <image name="btn_sendinvite.png" width="565" height="75"/>
+        <image name="btn_toggle.png" width="132" height="87"/>
+        <image name="ic_btn_back.png" width="50" height="43"/>
+        <image name="ic_btn_menu.png" width="50" height="43"/>
+        <image name="ic_crown_on.png" width="83" height="67"/>
+        <image name="or.png" width="252" height="12"/>
+        <image name="textfill.png" width="255" height="36"/>
+        <image name="title_members.png" width="291" height="65"/>
+    </resources>
+</document>

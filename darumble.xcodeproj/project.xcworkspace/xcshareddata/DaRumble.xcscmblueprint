@@ -1,0 +1,42 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3338BBBBF96CC1F5C5390FFD1C4CCF6E232C1B05",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : {
+
+    },
+    "052f66bb-8366-e9ed-b056-95094e25c79e++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : 0,
+    "052f66bb-8366-e9ed-b056-95094e25c79e++505" : 0,
+    "3338BBBBF96CC1F5C5390FFD1C4CCF6E232C1B05" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "09157281-F253-4BC7-80AB-591FA9684D68",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "22754eea-fc93-e339-b032-c1f495b90c16++2896" : "google-api-objectivec-client-read-only\/Source\/OAuth2\/",
+    "052f66bb-8366-e9ed-b056-95094e25c79e++505" : "google-api-objectivec-client-read-only\/",
+    "3338BBBBF96CC1F5C5390FFD1C4CCF6E232C1B05" : "DaRumble_APPSTORE\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "DaRumble",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DaRumble.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/google-api-objectivec-client.googlecode.com\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "052f66bb-8366-e9ed-b056-95094e25c79e++505"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/gtm-oauth2.googlecode.com\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22754eea-fc93-e339-b032-c1f495b90c16++2896"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/colin_vhit\/darumble.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3338BBBBF96CC1F5C5390FFD1C4CCF6E232C1B05"
+    }
+  ]
+}

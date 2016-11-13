@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SideMenuVC">
+            <connections>
+                <outlet property="_btnAvatar" destination="pA3-Zh-YeT" id="tw6-nE-jXe"/>
+                <outlet property="_scrMenu" destination="FMl-0Z-A1a" id="TqH-sU-hEa"/>
+                <outlet property="imgAvatar" destination="7mQ-Ov-q9u" id="kkf-yj-QbU"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_menuleft.png" id="Q3j-iT-MXu">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="FMl-0Z-A1a">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="t1m-9E-Glw">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line_left.png" id="GnS-JH-7Lx">
+                                    <rect key="frame" x="0.0" y="310" width="320" height="2"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line_left.png" id="OLX-cH-cvg">
+                                    <rect key="frame" x="0.0" y="434" width="320" height="2"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5Ew-dL-iAn">
+                                    <rect key="frame" x="0.0" y="188" width="320" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="ic_menuleft_local.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" image="ic_menuleft_local_on.png"/>
+                                    <connections>
+                                        <action selector="clickLocalFeed:" destination="-1" eventType="touchUpInside" id="1Bl-XS-Of4"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ihz-SG-GfL">
+                                    <rect key="frame" x="0.0" y="376" width="320" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="ic_menuleft_my_account.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" image="ic_menuleft_my_account_on.png"/>
+                                    <connections>
+                                        <action selector="clickMyAccount:" destination="-1" eventType="touchUpInside" id="7jQ-54-ebD"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line_left.png" id="5NZ-Dt-SMK">
+                                    <rect key="frame" x="0.0" y="248" width="320" height="2"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line_left.png" id="BEp-Dj-lqU">
+                                    <rect key="frame" x="0.0" y="186" width="320" height="2"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line_left.png" id="XMo-za-9ff">
+                                    <rect key="frame" x="0.0" y="372" width="320" height="2"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WDC-PA-hBd">
+                                    <rect key="frame" x="0.0" y="126" width="320" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="ic_menuleft_global.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" image="ic_menuleft_global_on.png"/>
+                                    <connections>
+                                        <action selector="clickGlobalFeed:" destination="-1" eventType="touchUpInside" id="rkf-47-Azx"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Jk2-10-iPS">
+                                    <rect key="frame" x="0.0" y="250" width="320" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="ic_menuleft_messages.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" image="ic_menuleft_messages_on.png"/>
+                                    <connections>
+                                        <action selector="clickMessages:" destination="-1" eventType="touchUpInside" id="Vg1-mx-E3U"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line_left.png" id="yr7-SR-F1f">
+                                    <rect key="frame" x="0.0" y="124" width="320" height="2"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="agY-qr-IkT">
+                                    <rect key="frame" x="0.0" y="438" width="320" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="ic_menuleft_settings.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" image="ic_menuleft_settings_on.png"/>
+                                    <connections>
+                                        <action selector="clickSettings:" destination="-1" eventType="touchUpInside" id="nft-Jr-mRg"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line_left.png" id="tlz-6q-0cK">
+                                    <rect key="frame" x="0.0" y="496" width="320" height="2"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xOg-Hh-i1Q">
+                                    <rect key="frame" x="0.0" y="496" width="320" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="ic_menuleft_logout.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" image="ic_menuleft_logout_on.png"/>
+                                    <connections>
+                                        <action selector="clickLogOut:" destination="-1" eventType="touchUpInside" id="cGt-8e-2DK"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar_l.png" id="7mQ-Ov-q9u">
+                                    <rect key="frame" x="97" y="22" width="86" height="86"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TX3-Em-Wsq">
+                                    <rect key="frame" x="0.0" y="314" width="320" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="ic_menuleft_findrumblers.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" image="ic_menuleft_findrumblers_on.png"/>
+                                    <connections>
+                                        <action selector="clickFindRumblers:" destination="-1" eventType="touchUpInside" id="aWL-cY-SDl"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pA3-Zh-YeT">
+                                    <rect key="frame" x="123" y="22" width="86" height="86"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="clickMyAccount:" destination="-1" eventType="touchUpInside" id="OWG-rb-eE2"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                </scrollView>
+            </subviews>
+            <point key="canvasLocation" x="-17" y="554"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="avatar_l.png" width="86" height="86"/>
+        <image name="bg_menuleft.png" width="186" height="480"/>
+        <image name="ic_menuleft_findrumblers.png" width="225" height="45"/>
+        <image name="ic_menuleft_findrumblers_on.png" width="225" height="45"/>
+        <image name="ic_menuleft_global.png" width="225" height="45"/>
+        <image name="ic_menuleft_global_on.png" width="225" height="45"/>
+        <image name="ic_menuleft_local.png" width="225" height="45"/>
+        <image name="ic_menuleft_local_on.png" width="225" height="45"/>
+        <image name="ic_menuleft_logout.png" width="225" height="45"/>
+        <image name="ic_menuleft_logout_on.png" width="158" height="45"/>
+        <image name="ic_menuleft_messages.png" width="225" height="45"/>
+        <image name="ic_menuleft_messages_on.png" width="225" height="45"/>
+        <image name="ic_menuleft_my_account.png" width="225" height="45"/>
+        <image name="ic_menuleft_my_account_on.png" width="225" height="45"/>
+        <image name="ic_menuleft_settings.png" width="225" height="45"/>
+        <image name="ic_menuleft_settings_on.png" width="225" height="45"/>
+        <image name="line_left.png" width="185" height="2"/>
+    </resources>
+</document>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__31-[AddMyEventVC addPhotoGarage:]_block_invoke:AddMyEventVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.flagOfEvent">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AddMyEventVC createEvent]:AddMyEventVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.photoObj">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AddShopVC viewDidLoad]:AddShopVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.m_shop_detail_info">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[VehicleSearchResult tableView:didSelectRowAtIndexPath:]:VehicleSearchResult.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[PhotoDetailsVC LoadComments_Success:]:PhotoDetailsVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "commentListTableView.frame.origin.y">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[UploadFlyerVC viewDidLoad]:UploadFlyerVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.flyerURL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MessageHistoryVC tableView:cellForRowAtIndexPath:]:MessageHistoryVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.plog_to_id">
+            </PersistentString>
+            <PersistentString
+               value = "photo_url">
+            </PersistentString>
+            <PersistentString
+               value = "self.plog_from_id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ShopManagerVC viewDidLoad]:ShopManagerVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.m_shop_detail_info">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RegisterVC loadWS]:RegisterVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_txfCountry.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ShopManagerVC GetRequestList]:ShopManagerVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.m_shopid">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

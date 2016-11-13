@@ -1,0 +1,25 @@
+//
+//  GalleryVC.h
+//  DaRumble
+//
+//  Created by Phan Minh Tam on 3/28/15.
+//  Copyright (c) 2015 DaRumble. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface MessageComposeVC : UIViewController{
+    
+}
+@property int to_user;
+@property int from_user;//it's me
+
+@property int is_report;
+
+@property (strong, nonatomic) IBOutlet UIScrollView *_srcMain;
+- (IBAction)clickMenu:(id)sender;
+- (IBAction)clickSearch:(id)sender;
+
+
+@property (strong, nonatomic) IBOutlet UILabel *view_title;
+@end
